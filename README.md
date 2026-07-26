@@ -4,7 +4,7 @@ A quantitative trading project that combines **feature engineering, machine lear
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project investigates the predictive power of machine learning models on **daily FAANG stock data** and evaluates whether modest predictive signals can generate **strong financial returns** when paired with proper execution strategies.
 
@@ -12,7 +12,7 @@ While traditional metrics (accuracy, ROC-AUC) suggest weak predictive power, the
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Predict **next-day stock price direction** (up/down)
 - Engineer meaningful features from raw market data
@@ -22,9 +22,9 @@ While traditional metrics (accuracy, ROC-AUC) suggest weak predictive power, the
 
 ---
 
-## 📊 Dataset
+## Dataset
 
-- Source: FAANG stock price data (`faang_stock_prices.csv`)
+- Source: FAANG stock price data (`faang_stock_prices.csv`), https://www.kaggle.com/datasets/vishardmehta/faang-stock-market-data-with-technical-indicators/data
 - Frequency: Daily
 - Features:
   - OHLCV (Open, High, Low, Close, Volume)
@@ -78,14 +78,14 @@ While traditional metrics (accuracy, ROC-AUC) suggest weak predictive power, the
 
 ---
 
-## 📈 Results
+## Results
 
-### 🔹 Predictive Performance
+### Predictive Performance
 - Accuracy: ~53–54%
 - ROC-AUC: ~0.50–0.53  
-➡️ Indicates **low signal-to-noise ratio**, typical in financial markets
+   Indicates **low signal-to-noise ratio**, typical in financial markets
 
-### 🔹 Trading Performance (Key Insight)
+### Trading Performance 
 
 | Model        | Strategy Type     | Total Return |
 |--------------|------------------|-------------|
@@ -99,7 +99,7 @@ Even weak predictive models can become **highly profitable when combined with ef
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 - Financial markets are **hard to predict statistically**
 - Small predictive edges can still produce **large financial gains**
@@ -108,7 +108,7 @@ Even weak predictive models can become **highly profitable when combined with ef
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - No transaction costs or slippage included
 - Daily data may miss intraday dynamics
@@ -117,4 +117,4 @@ Even weak predictive models can become **highly profitable when combined with ef
 
 ---
 
-## 📁 Repository Structure
+Dataset is primarily availabe on https://www.kaggle.com/datasets/vishardmehta/faang-stock-market-data-with-technical-indicators/data
