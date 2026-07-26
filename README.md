@@ -39,7 +39,7 @@ While traditional metrics (accuracy, ROC-AUC) suggest weak predictive power, the
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### 1. Feature Engineering
 - Lagged variables for price, volume, and indicators
@@ -94,12 +94,9 @@ While traditional metrics (accuracy, ROC-AUC) suggest weak predictive power, the
 | Voting Model | Trailing Stop    | 397.09%     |
 | SVC          | Trailing Stop    | 338.64%     |
 
-📌 **Key Insight:**  
-Even weak predictive models can become **highly profitable when combined with effective trading rules**.
+ 
 
----
-
-## Key Takeaways
+## Takeaways
 
 - Financial markets are **hard to predict statistically**
 - Small predictive edges can still produce **large financial gains**
